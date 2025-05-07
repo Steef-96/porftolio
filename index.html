@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_JWood</title>
+    <script src="https://kit.fontawesome.com/7ee50907d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header bar de navigation -->
+    <header>
+        <div class="nav-bar">
+            <div class="name">
+                <p class="txt-left">Jean Wood <span class="last-name1"> PAUL</span></p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="#home">Acceuil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                </ul>
+            </div>
+            <div class="contact-button"><a href="#contact">Contact</a></div>
+        </div>
+    </header>
+
+<!-- Section Home -->
+    <section id="home" class="home-section">
+        <div class="profil-photo">
+            <img src="images/wood2.png" alt="Jean Wood">
+        </div>
+        <div class="left-home">
+            <div class="txt-about">
+                <h1> SALUT, Je suis  <span class="last-names"> Jean Wood </span><br></h1>
+                <h3>Développeur,  Technicien en reseau <br>Graphiste, passionné par le Web<br> 
+                 </h3>
+            </div>
+            <div class="project-button">
+                <a href="#projects">Voir mes projets</a>
+            </div>
+        </div>
+        <div class="right-home">
+            <img src="images/web-dev.png" alt="Web Développement">
+            <h3> Web Developement </h3>
+        </div>
+        
+    </section>
+
+<!-- Section APROPOS -->
+    <section id="about" class="about-section">
+        <h3>A propos</h3>
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-txt">
+                    <p>Je m'appelle <span class="last-name">PAUL</span>, passionné par la
+                        <br>création des sites web modernes et interactifs, par la technologie. Rigoureux,
+                        <br> très dynamique, capable de travailler en équipe.<br>
+                        <br>Diplômé en génie informatique en 2023, 
+                        <br>Je suis actuellement étudiant en<span class="last-name"> développement web,</span>
+                        <br>et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.<br>
+                        <br>J’adore transformer mes idées en projets concrets
+                        <br>et expérimenter avec les nouvelles technologies.</p>
+                </div>
+                <div class="cv-boutton">
+                    <a href="cv/CV_JEAN_WOOD_PAUL2.pdf" download>Télécharger mon CV &nbsp;&nbsp;↓</a>
+                </div>
+            </div>
+            <div class="profil-pic">
+                <img src="images/wood2-img-profil.jpg" alt="Jean Wood">
+            </div>
+        </div>
+    </section>
+
+<!-- Section Mes Projets -->
+
+    <section id="projects" class="project-section">
+        <h3>Mes projets</h3>
+        <div class="container-case">
+            <div class="cases case1" onclick="openImage('projects/d-clic.jpg')">
+                <div class="desc-projet">
+                    <p class="desc">Installation et configuration starlink "Orphelina Travay Bondye"</p>
+                </div>
+                <div class="technologies">
+                    <p>Technicien reseau(responsable d'une laboratoire informatique)</p>
+                </div>
+                <div class="view-button"><a href="projects/d-clic.jpg" target="_blank">Voir</a></div>
+            </div>
+            <div class="cases case2" onclick="openImage('projects/dodgemarket.png')">
+                <div class="desc-projet">
+                    <p class="desc">Application pour la gestion optimisée des ventes en magasin(Dodge Market).</p>
+                </div>
+                <div class="technologies">
+                    <p>#c-sharp, #mysql</p>
+                </div>
+                <div class="view-button"><a href="projects/d-clic.jpg" target="_blank">Voir</a></div>
+            </div>
+            <div class="cases case3" onclick="openImage('projects/python11.png')">
+                <div class="desc-projet">
+                    <p class="desc">Application pour la gestion d'achats et de ventes.</p>
+                </div>
+                <div class="technologies">
+                    <p>#python, #mysql</p>
+                </div>
+                <div class="view-button"><a href="projects/python11.png" target="_blank">Voir</a></div>
+            </div>
+        </div>
+    </section>
+
+<!-- Section Competences -->
+    <section id="skills" class="skills-section">
+        <h3>Mes compétences</h3>
+        <div class="container-skills">
+            <div class="skills-cases skills-case1">
+                <h4>Compétences générales</h4>
+                <div class="skills-case-content">
+                    <p class="title-skill" style="margin-bottom: 13px">Gestion de projets</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 60%;"></div></div>
+                    <p class="title-skill" style="margin-top: 13px; margin-bottom: 13px;">Résolution problème</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 70%;"></div></div>
+                    <p class="title-skill" style="margin-top: 13px; margin-bottom: 13px">Adaptabilité</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 75%;"></div></div>
+                    <p class="title-skill" style="margin-top: 13px; margin-bottom: 13px">Dynamique</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 75%;"></div></div>
+                    <p class="title-skill" style="margin-top: 13px; margin-bottom: 13px">Microsoft word, Excel et Power Point</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 75%;"></div></div>
+                </div>
+            </div>
+            <div class="skills-cases skills-case2">
+                <h4>Compétences techniques</h4>
+                <div class="skills-case-content">
+                    <p class="title-skill">HTML et CSS</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 85%;"></div></div>
+                    <p class="title-skill">Mysql, HEIDI SQL</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 80%;"></div></div>
+                    <p class="title-skill">JavaScript</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 60%;"></div></div>
+                    <p class="title-skill">VS Code, Parket Tracer</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 80%;"></div></div>
+                    <p class="title-skill">Python</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 70%;"></div></div>
+                    <p class="title-skill">ADOBE Photoshop, Reseau</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 80%;"></div></div>
+                    <p class="title-skill">C#, PHP</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 60%;"></div></div>
+                    <p class="title-skill">Windows et SQL Sever</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 60%;"></div></div>
+                    <p class="title-skill">Installation de camera</p>
+                    <div class="progress-bar"><div class="level-bar" style="width: 60%;"></div></div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Section de Contacts -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Avez-vous un projet en plan ?</h2>
+            <p>En quête d’un idéal candidat ? Vous tombez bien.</p>
+            <form id="formulaire">
+                <div class="first-and-last-name-label">
+                    <label class="first-name-label">Votre nom*
+                        <input id="" name="nom" type="text" placeholder="Jhon" minlength="2" maxlength="50" required>
+                    </label>
+                    <label class="last-name-label">Votre prénom*
+                        <input id="" name="prenom" type="text" placeholder="McGarrett" minlength="2" maxlength="50" required>
+                    </label>
+                </div>
+                <label class="subject-label">Votre email*
+                    <input id="" name="email" type="email" placeholder="example@gmail.com" minlength="12" maxlength="100" required>
+                </label>
+                <textarea rows="10" name="message" id="" placeholder="Ecrivez votre message ici..." minlength="5" maxlength="1500" required></textarea>
+                <button id="submit-button" type="submit">Envoyer</button>
+            </form>
+            <div id="confirmation-message" style="display: none; color:rgb(109, 205, 109); font-size: 14px;">Message envoyé avec succès !</div>
+        </div>
+    </section>
+
+<!-- le pied de la page -->
+    <footer class="footer-contents">
+        <div>Retrouvez-moi sur les réseaux sociaux</div>
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p>&copy; 2025 <span>Jean Wood</span> | Tous droits réservés.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
